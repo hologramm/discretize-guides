@@ -1,684 +1,371 @@
 ---
-title: 'Renegade CM guides'
-build: 'Power Renegade'
+title: 'Power Renegade'
+date: '2021-04-05'
+rating: 'Power Meta'
+role: 'Damage'
 profession: 'Revenant'
 specialization: 'Renegade'
-date: '2021-02-24'
+benchmark: { large: { dps: 23973, by: 'MajesticNoodle [BATS]', youtube: 'p4D96l_GVPg' } }
+skills: [45773, 27505]
+traits: [1786]
+boons: ['Alacrity', 'Might', 'Stability']
+conditions: ['Vulnerability']
+code: '[&DQkDJg8mPz3cEdwR1BHUESsSKxIGEgYSyhHKEQUCAgPUESsSBhIGEtQRKxI=]'
 author: 'Casual Sophie - Jin Su Liang.9036'
-disableOrganized: 'false'
-disableBosses: ['LightAi', 'DarkAi']
+cmguides: '/cm-guides/revenant/power-renegade'
+classification: [5, 2, 4, 3, 5]
+compositions: [ { name: '_Rainbow' }, { name: '_Rainbearbow' }, { name: '_RGB' }]
 ---
 
-<ConditionalComponent condition="pug">
-<Boss name="mama" video="p2wUMQEQNUY" timestamp="" videoCreator="Deen [dT]" foodId="43360" utilityId="50082" legend1Id="41858" legend2Id="28134" weapon1MainAffix="Berserker" weapon1MainType="sword" weapon1MainSigil1="impact" weapon1MainInfusion1Id="37131" weapon1OffAffix="Berserker" weapon1OffType="sword"  weapon1OffSigil="force" weapon1OffInfusionId="37131"  weapon2MainAffix="Berserker" weapon2MainType="staff" weapon2MainSigil1="severance" weapon2MainSigil2="force" weapon2MainInfusion1Id="37131" weapon2MainInfusion2Id="37131">
-**Suggested Boon Duration:** `50%`   
-- Maintaining <Boon name="Alacrity"/> in this encounter does not require high boon duration due to the length of the fight. This allows you to take a more damage focused approach. Increase your concentration if you notice downtime in <Boon name="Alacrity"/>. 
-</Boss>
+<Specialization name="Renegade"/> is the profession with the most support and utility among all META classes. It provides permanent <Boon name="Alacrity"/>, half of the necessary <Boon name="Might"/> with <Skill name="Heroic Command"/>, a unique buff over 150 <Attribute name="Ferocity"/> with <Trait name="Assassins Presence"/>, <Condition name="Vulnerability"/> via <Skill name="IcerazorsIre"/> and sword skills and if that is not enough already, the <Specialization name="Renegade"/> has also excellent CC capabilities with <Skill name="Surge of the mists"/> and <Skill name="Darkrazorsdaring"/>. 
 
-### **Precast**  
-* Cast <Skill name="Ordersfromabove"/> for <Boon name="Alacrity"/> and <Skill name="Renewingwave"/> to blast <Boon name="Might"/>, take the mistlock and repeat. The two casts of <Skill name="Ordersfromabove"/> overlap and grant twice the duration of <Boon name="Alacrity"/>. You can use <Skill name="DroptheHammer"/> for an additional  <Boon name="Might"/> blast if needed. 
-* After the introduction of templates, it is recommended to precast using equipment with higher boon duration.
+Damage-wise the <Specialization name="Renegade"/> is on the lower end compared to the other META classes. This does not imply that the damage doesn't matter; in fact <Specialization name="Renegade"/> has a very juicy burst that makes slacking DPS player sweaty. 
 
-### **100 - 75%**  
+Since the <Specialization name="Renegade"/> is a power-oriented build it benefits from  <Item id="50082"/> and <Item name="Impact" type="Sigil"/>.
 
-* Cast <Skill name="DarkrazorsDaring"/>, and <Skill name="IcerazorsIre"/> on MAMA. 
-* Use <Skill name="Surgeofthemists"/> to CC. Be aware of your positioning to gain an additional hit. 
-* Weapon swap and change to <Skill name="legendaryassassinstance"/> to gain the extra energy from the trait <Trait name="ChargedMists"/>. 
-* Activate <Skill name="Impossibleodds"/>, and use <Skill name="citadel bombardment"/> and <Skill name="ChillingIsolation"/> before sharing <Boon name="Alacrity"/> with <Skill name="OrdersfromAbove"/>.
+### **Nightmare Challenge Mode PuG videos** 
+<Grid>
+<GridItem sm="4">
+<Video caption="by Deen [dT], edited by Vince [dT]" youtube="p2wUMQEQNUY"/> 
+</GridItem>
+<GridItem sm="4">
+<Video caption="by Deen [dT], edited by Vince [dT]" youtube="FwVEqdngirM"/> 
+</GridItem>
+<GridItem sm="4">
+<Video caption="by Deen [dT], edited by Vince [dT]" youtube="eexNfMx2J_w"/> 
+</GridItem>
+</Grid>
+### **Shattered Observatory Challenge Mode PuG videos**
+<Grid>
+<GridItem sm="4">
+<Video caption="by Deen [dT], edited by Vince [dT]" youtube="BVTXG2SMP6Y"/> 
+</GridItem>
+<GridItem sm="4">
+<Video caption="by Deen [dT], edited by Vince [dT]" youtube="Mw1lAIF-n0k"/> 
+</GridItem>
+<GridItem sm="4">
+<Video caption="by Deen [dT], edited by Vince [dT]" youtube="yadsI_KvvDo"/> 
+</GridItem>
+</Grid>
 
-### _1st Add_   
-* Use <Skill name="Shackling Wave"/>. 
-* Change to <Skill name="Legendary Renegade stance"/> to use <Skill name="Heroic Command"/> to share <Boon name="Might"/>.
+<Divider text="Equipment"/>
+- Check the [gear optimizer](http://old.discretize.eu) for more gear variants!
+- Check the CM-guides for information when to play 50% and 80% boon duration. For newer <Specialization name="Renegade"/>s it is recommended to play at least 80% boon duration.
+<Tabs outlined>
+<Tab title="162 Agony Resistance">
 
-### **75-50%** 
-* Cast <Skill name="SoulcleavesSummit"/> and <Skill name="icerazors ire"/> on MAMA.
-* Share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/> when off cooldown. 
-* Weapon swap to staff near the end of the phase.
+<Grid>
+<GridItem sm="2">
+</GridItem>
 
-### _2nd Add_  
-* Precast <Skill name="Darkrazors Daring"/>.
-* Change to <Skill name="Legendary Assassin stance"/>. 
-* Share <Boon name="Might"/> with <Skill name="Heroic Command"/>.
+<GridItem sm="4">
+80% Boon Duration.
+<Armor weight="Heavy" helmAffix="Diviner" helmRune="Scholar" shouldersAffix="Berserker" shouldersRune="Scholar" coatAffix="Diviner" coatRune="Scholar" glovesAffix="Berserker" glovesRune="Scholar" leggingsAffix="Diviner" leggingsRune="Scholar" bootsAffix="Berserker" bootsRune="Scholar" helmInfusionId="49432" shouldersInfusionId="49432" coatInfusionId="49432" glovesInfusionId="49432" leggingsInfusionId="49432" bootsInfusionId="49432"/>
+</GridItem>
 
+<GridItem sm="4">
+50% Boon duration.
+<Armor weight="Heavy" helmAffix="Berserker" helmRune="Scholar" shouldersAffix="Berserker" shouldersRune="Scholar" coatAffix="Diviner" coatRune="Scholar" glovesAffix="Berserker" glovesRune="Scholar" leggingsAffix="Diviner" leggingsRune="Scholar" bootsAffix="Berserker" bootsRune="Scholar" helmInfusionId="49432" shouldersInfusionId="49432" coatInfusionId="49432" glovesInfusionId="49432" leggingsInfusionId="49432" bootsInfusionId="49432"/>
+</GridItem>
 
-### **50-25%**  
-* Use <Skill name="Surge of the Mists"/>, and weapon swap to swords. 
-* Activate <Skill name="Impossible Odds"/>, cast <Skill name="Citadel Bombardment"/> and <Skill name="Chilling Isolation"/>. 
-* Change to <Skill name="Legendary Renegade stance"/>.
-* Share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/> when off cooldown.
-
-### _3rd Add_  
-* Precast <Skill name="Darkrazors Daring"/>, <Skill name="icerazors ire"/>, and <Skill name="Soulcleaves Summit"/>. 
-* Share <Boon name="Might"/> with <Skill name="Heroic Command"/>. 
-* Weapon swap to staff when possible.
-
-### **25-0%**  
-* Use <Skill name="Warding Rift"/> for MAMAs shockwaves. 
-* Using <Skill name="Surge of the Mists"/> to CC. 
-* Weapon swap and change to <Skill name="Legendary Assassin Stance"/>. 
-* Activate <Skill name="Impossible Odds"/>, cast <Skill name="Citadel Bombardment"/> and <Skill name="Chilling Isolation"/>.
-
-### **Annotation**
-* If your second phase is fast you might want to deactivate <Skill name="Soulcleaves Summit"/> to have enough energy to share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/> and precast <Skill name="Darkrazors Daring"/> on the second add.
-* If your second phase is slow you can let <Skill name="Soulcleaves Summit"/> run out and then let your energy replenish to share <Boon name="Alacrity"/> and precast <Skill name="Darkrazors Daring"/> on the second add.
-* Adjust your weapon swap to staff in the second phase to accommodate the weapon swap back to swords for the burst in phase three.
-
-</ConditionalComponent>
-
-<ConditionalComponent condition="static">
-
-<Boss name="mama" video="" timestamp="" videoCreator="" foodId="43360" utilityId="50082" legend1Id="41858" legend2Id="28134" weapon1MainAffix="Berserker" weapon1MainType="sword" weapon1MainSigil1="impact" weapon1MainInfusion1Id="37131" weapon1OffAffix="Berserker" weapon1OffType="sword"  weapon1OffSigil="force" weapon1OffInfusionId="37131"  weapon2MainAffix="Berserker" weapon2MainType="staff" weapon2MainSigil1="severance" weapon2MainSigil2="force" weapon2MainInfusion1Id="37131" weapon2MainInfusion2Id="37131">
-- Suggested Boon Duration: `20%`   
-- Increase boon duration if you notice downtime in <Boon name="Alacrity"/>. 
-</Boss>
-
-### **Precast**  
-* Precast with higher boon duration.
-* <Skill name="Enchanted Daggers"/>
-
-### **100 - 75%**  
-
-* Precast <Skill name="DarkrazorsDaring"/>, <Skill name="IcerazorsIre"/>. 
-* <Skill name="Surgeofthemists"/>.
-* <Skill name="legendary Assassin Stance"/>. 
-* <Skill name="Impossibleodds"/>, <Skill name="citadel bombardment"/>, <Skill name="ChillingIsolation"/> 
-
-### _1st Add_   
-* <Skill name="Shackling Wave"/>, <Skill name="Heroic Command"/>, <Skill name="Orders from Above"/>.
-
-### **75-50%** 
-* <Skill name="Legendary Renegade Stance"/>
-* <Skill name="SoulcleavesSummit"/>, <Skill name="icerazors ire"/>.
-* Weapon swap to staff near the end of the phase.
-
-### _2nd Add_  
-* <Skill name="Darkrazors Daring"/>.
-* <Skill name="Legendary Assassin stance"/>.
-* <Skill name="Heroic Command"/>, <Skill name="Orders from Above"/>.
-
-
-### **50-25%**  
-* <Skill name="Surge of the Mists"/>. 
-* <Skill name="Impossible Odds"/>, <Skill name="Citadel Bombardment"/>, <Skill name="Chilling Isolation"/>, <Skill name="Deathstrike"/>.
-
-### _3rd Add_  
-* <Skill name="Shacklingwave"/>, <Skill name="Heroic Command"/>, <Skill name="Orders from Above"/>.
-* <Skill name="Legendary Renegade Stance"/>.
-* Weaponswap to staff.
-
-### **25-0%**  
-* <Skill name="Darkrazors Daring"/>, <Skill name="Soulcleaves Summit"/>.
-* <Skill name="Surge of the Mists"/>. 
-* <Skill name="Legendary Assassin Stance"/>. 
-* <Skill name="Impossible Odds"/>, <Skill name="Citadel Bombardment"/>, <Skill name="Chilling Isolation"/>, <Skill name="Deathstrike"/>.
-
-
-
-</ConditionalComponent>
-
----
-
-<ConditionalComponent condition="pug">
-
-<Boss name="siax" video="FwVEqdngirM" timestamp="" videoCreator="Deen [dT]" foodId="43360" utilityId="50082" legend1Id="41858" legend2Id="28134" weapon1MainAffix="Berserker" weapon1MainType="sword" weapon1MainSigil1="impact" weapon1MainInfusion1Id="37131" weapon1OffAffix="Berserker" weapon1OffType="sword"  weapon1OffSigil="serpentslaying" weapon1OffInfusionId="37131"  weapon2MainAffix="Berserker" weapon2MainType="staff" weapon2MainSigil1="severance" weapon2MainSigil2="serpentslaying" weapon2MainInfusion1Id="37131" weapon2MainInfusion2Id="37131">
-**Suggested Boon Duration:** `50%`   
-- Maintaining <Boon name="Alacrity"/> in this encounter does not require high boon duration due to the length of the fight. This allows you to take a more damage focused approach. Increase your concentration if you notice downtime in <Boon name="Alacrity"/>. 
-</Boss>
-
-### **Precast**  
-* Cast <Skill name="Ordersfromabove"/> for <Boon name="Alacrity"/> and <Skill name="Renewingwave"/> to blast <Boon name="Might"/>, take the _Mistlock Singularity_ and repeat. The two casts of <Skill name="Ordersfromabove"/> overlaps and grants twice the duration of <Boon name="Alacrity"/>. You can use <Skill name="DroptheHammer"/> for an additional <Boon name="Might"/> blast if needed.
-* After the introduction of templates, it is recommended to precast using equipment with higher boon duration.
-* Ask your <Specialization name="Weaver"/> to precast <Skill name="Conjure Frost Bow"/> for your opening rotation.
-
-### **100 - 66%**   
-* Have your staff equipped and pick up the <Skill name="Conjure Frost Bow"/>.
-* Precast <Skill name="Darkrazors Daring"/> and <Skill name="icerazors ire"/> and change to <Skill name="Legendary Assassin Stance"/> **using the legend swap UI**.
-* Once the encounter begins activate <Skill name="Impossible Odds"/> and use <Skill name="Citadel Bombardment"/>, <Skill name="Frost Storm"/>, and <Skill name="Frost Fan"/>.
-* Change to <Skill name="Legendary Renegade Stance"/>, this will grant you extra energy from the trait <Trait name="Charged Mists"/>. 
-* Drop the <Skill name="Conjure Frost Bow"/>.
-* Immediately use <Skill name="Surgeofthemists"/> to CC.
-* When you are through the hitbox weapon swap and use <Skill name="Chilling Isolation"/>.
-* Share <Boon name="Might"/> at the end of the phase with <Skill name="Heroic Command"/>.
-
-### _1st Add_  
-* Cast <Skill name="icerazors ire"/> on your designated add. 
-* Use <Skill name="Shackling Wave"/> and <Skill name="Chilling Isolation"/> to finish off the add.
-* Cast <Skill name="Soulcleaves Summit"/> on Siax.
-* Use <Skill name="Deathstrike"/> to shadow step to Siax immediately. 
-
-### **66-33%**  
-* Share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/>.
-* Let <Skill name="Soulcleaves summit"/> and <Skill name="Shackling wave"/> deplete your energy.
-* Change to <Skill name="Legendary Assassin Stance"/>, this will grant you extra energy from the trait <Trait name="Charged Mists"/>.
-* Cast <Skill name="Citadel Bombardment"/> and <Skill name="Chilling Isolation"/>.
-* Share <Boon name="Might"/> at the end of the phase with <Skill name="Heroic Command"/>.
-
-### _2nd Add_  
-* Activate <Skill name="Impossible Odds"/> and use <Skill name="Chilling Isolation"/> to kill your add quickly. 
-* Save <Skill name="Shackling Wave"/> for the next phase. 
-* Use <Skill name="Deathstrike"/> to shadow step back to Siax immediately.
-
-### **33-0%**  
-* Share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/>.
-* Use <Skill name="Shackling wave"/> to deplete your energy.
-* Change to <Skill name="Legendary Renegade Stance"/>, this will grant you extra energy from the trait <Trait name="Charged Mists"/>.
-* Cast <Skill name="Soulcleaves Summit"/>, <Skill name="Citadel Bombardment"/>, <Skill name="Heroic Command"/>, and <Skill name="Icerazors Ire"/>.
-* Use <Skill name="Chilling Isolation"/> and <Skill name="Shackling Wave"/> off cooldown until the encounter is finished.
-
-### **Annotation**
-* If you do not have a <Skill name="Conjure Frost Bow"/> for your opening you can do the following:
-    - Precast <Skill name="Darkrazors Daring"/> and <Skill name="icerazors ire"/> and change to <Skill name="Legendary Assassin Stance"/> **using the legend swap UI**.
-    * Activate <Skill name="Impossible Odds"/>, cast <Skill name="Citadel Bombardment"/> and spend time autoattacking. 
-    * Change to <Skill name=" Legendary Renegade Stance"/> and use <Skill name="Surge of the mists"/> before continuing with the steps listed above.
-* In slower kills it might be worth sharing <Boon name="Alacrity"/> in the first phase, rather than waiting until the beginning of the second phase.
-* In slower kills you will have to swap to staff after the second add and use <Skill name="Surge of the mists"/> to break the defiance bar. Casting <Skill name="Darkrazors Daring"/> will also be beneficial in this circumstance.
-* If you are running higher boon duration you will have to use <Skill name="Chilling Isolation"/> and <Skill name="Shackling Wave"/> on your add to kill it quick enough in both phases.
-
-</ConditionalComponent>
-
-<ConditionalComponent condition="static">
-
-<Boss name="siax" video="" timestamp="" videoCreator="" foodId="43360" utilityId="50082" legend1Id="41858" legend2Id="28134" weapon1MainAffix="Berserker" weapon1MainType="sword" weapon1MainSigil1="impact" weapon1MainInfusion1Id="37131" weapon1OffAffix="Berserker" weapon1OffType="sword"  weapon1OffSigil="serpentslaying" weapon1OffInfusionId="37131"  weapon2MainAffix="Berserker" weapon2MainType="staff" weapon2MainSigil1="severance" weapon2MainSigil2="serpentslaying" weapon2MainInfusion1Id="37131" weapon2MainInfusion2Id="37131">
-- Suggested Boon Duration: `20%`   
-- Increase boon duration if you notice downtime in <Boon name="Alacrity"/>.
-- <Trait name="Lasting Legacy"/>
-</Boss>
-
-### **Precast**  
-* Precast with higher boon duration, and <Trait name="Righteous Rebel"/>.
-* <Skill name="Conjure Frost Bow"/>.
-* <Skill name="Enchanted Daggers"/>
-
-### **100 - 66%**   
-* Precast <Skill name="Darkrazors Daring"/>, <Skill name="icerazors ire"/>.
-* <Skill name="Legendary Assassin Stance"/>, UI change.
-* <Skill name="Impossible Odds"/>, <Skill name="Frost Storm"/>, <Skill name="Citadel Bombardment"/>, <Skill name="Frost Fan"/>.
-* <Skill name="Legendary Renegade Stance"/>. 
-* <Skill name="Surge of the Mists"/>, <Skill name="Chilling Isolation"/>.
-
-### _1st Add_  
-* <Skill name="icerazors ire"/>, <Skill name="Shackling Wave"/>, <Skill name="Chilling Isolation"/>.
+<GridItem sm="2">
+</GridItem>
  
 
-### **66-33%**  
-* <Skill name="Deathstrike"/>, <Skill name="Citadel Bombardment"/>, <Skill name="Heroic Command"/>, <Skill name="Orders from Above"/>.
-* <Skill name="Legendary Assassin Stance"/>.
-* <Skill name="Impossible Odds"/>
 
-### _2nd Add_  
-* <Skill name="Enchanted Daggers"/>, <Skill name="Shackling Wave"/>, <Skill name="Chilling Isolation"/>.
+ <GridItem sm="2">
+</GridItem>
+<GridItem sm="4">
+<BackAndTrinkets backItemAffix="Diviner" accessory1Affix="Berserker" accessory2Affix="Diviner" amuletAffix="Diviner" ring1Affix="Diviner" ring2Affix="Diviner" backItemInfusion1Id="49432" backItemInfusion2Id="49432" accessory1InfusionId="49432" accessory2InfusionId="49432" ring1Infusion1Id="49432" ring1Infusion2Id="49432" ring1Infusion3Id="49432" ring2Infusion1Id="49432" ring2Infusion2Id="49432" ring2Infusion3Id="49432"/>
+</GridItem>
 
-### **33-0%**  
-* <Skill name="Deathstrike"/>, <Skill name="Citadel Bombardment"/>. 
-* <Skill name="Legendary Renegade Stance"/>
-* <Skill name="Heroic Command"/>, <Skill name="Orders from Above"/>, <Skill name="Icerazors Ire"/>, <Skill name="Chilling Isolation"/>.
-
-### **Annotation**
-* If you do not have a <Skill name="Conjure Frost Bow"/> you can do the following:
-    - Precast <Skill name="Darkrazors Daring"/>, <Skill name="icerazors ire"/>.
-    - <Skill name="Legendary Assassin Stance"/>, UI change.
-    * <Skill name="Impossible Odds"/>, <Skill name="Citadel Bombardment"/>. 
-    * <Skill name=" Legendary Renegade Stance"/>, <Skill name="Surge of the mists"/>.
-
-</ConditionalComponent>
+<GridItem sm="4">
+<BackAndTrinkets backItemAffix="Berserker" accessory1Affix="Berserker" accessory2Affix="Diviner" amuletAffix="Berserker" ring1Affix="Berserker" ring2Affix="Berserker" backItemInfusion1Id="49432" backItemInfusion2Id="49432" accessory1InfusionId="49432" accessory2InfusionId="49432" ring1Infusion1Id="49432" ring1Infusion2Id="49432" ring1Infusion3Id="49432" ring2Infusion1Id="49432" ring2Infusion2Id="49432" ring2Infusion3Id="49432"/>
+</GridItem>
+<GridItem sm="2">
+</GridItem>
+</Grid>
+</Tab>
 
 
----
-
-<ConditionalComponent condition="pug">
-
-<Boss name="ensolyss" video="eexNfMx2J_w" timestamp="" videoCreator="Deen [dT]" foodId="91805" utilityId="50082" legend1Id="41858" legend2Id="28134" weapon1MainAffix="Berserker" weapon1MainType="sword" weapon1MainSigil1="impact" weapon1MainInfusion1Id="37131" weapon1OffAffix="Berserker" weapon1OffType="sword"  weapon1OffSigil="serpentslaying" weapon1OffInfusionId="37131"  weapon2MainAffix="Berserker" weapon2MainType="staff" weapon2MainSigil1="severance" weapon2MainSigil2="serpentslaying" weapon2MainInfusion1Id="37131" weapon2MainInfusion2Id="37131">
-**Suggested Boon Duration:** `80%`
-- Maintaining <Boon name="Alacrity"/> in this encounter does require higher boon duration due to the length of the fight, and the necessity for <Boon name="Alacrity"/> throughout the encounter. Increase your concentration if you notice downtime in <Boon name="Alacrity"/>.
-</Boss>
-
-### **Precast**  
-* Cast <Skill name="Ordersfromabove"/> for <Boon name="Alacrity"/> and <Skill name="Renewingwave"/> to blast <Boon name="Might"/>, take the _Mistlock Singularity_ and repeat. The two casts of <Skill name="Ordersfromabove"/> overlap and grant twice the duration of <Boon name="Alacrity"/>. You can use <Skill name="DroptheHammer"/> for an additional <Boon name="Might"/> blast if needed.
-* After the introduction of templates, it is recommended to precast using equipment with higher boon duration.
-
-### **100-66%**
-* Precast <Skill name="Darkrazors Daring"/>, and <Skill name="Icerazors Ire"/> on Ensolyss as soon as the red circle appears.
-* Use <Skill name="Surge of the mists"/> to break the defiance bar immediately. Be aware of your positioning to gain an additional hit.
-* Change to <Skill name="Legendary Assassin Stance"/> to gain the extra energy from the trait <Trait name ="Charged Mists"/>.
-* Weapon swap and share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/>.
-* Activate <Skill name="Impossible Odds"/>, and use <Skill name="Chilling Isolation"/>, <Skill name="Citadel Bombardment"/>, <Skill name="Shackling Wave"/>, and <Skill name="Deathstrike"/>.
-
-*In the case of reaching the Upswing attack:*
-* Change to <Skill name="Legendary Renegade Stance"/> and share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/>.
-* Cast <Skill name="Soulcleaves Summit"/> and <Skill name="Icerazors Ire"/>.
-* Use <Skill name="Chilling Isolation"/>, <Skill name="Shackling Wave"/>, and <Skill name="Deathstrike"/> until phase is finished.
-
-### _Orb Phases_
-* Weapon swap to staff and change to <Skill name="Legendary Renegade Stance"/>.
-* Cast <Skill name="Breakrazors Bastion"/> on the <Skill name="Frost Spirit"/> to keep it alive for the next phase.
-
-### **66-33%** / **33-0%**
-* Precast <Skill name="Darkrazors Daring"/> right before Ensolyss appear.
-* Cast <Skill name="Icerazors Ire"/>, <Skill name="Orders from Above"/> for <Boon name="Alacrity"/>, <Skill name="Heroic Command"/> for <Boon name="Might"/>, and <Skill name="Soulcleaves Summit"/>.
-* Use <Skill name="Surge of the mists"/> to break the defiance bar immediately. Be aware of energy management.
-* Weapon swap and change to <Skill name="Legendary Assassin Stance"/> to gain the extra energy from the trait <Trait name ="Charged Mists"/>.
-* Activate <Skill name="Impossible Odds"/>, and use <Skill name="Chilling Isolation"/>, <Skill name="Citadel Bombardment"/>, <Skill name="Shackling Wave"/>, <Skill name="Deathstrike"/>, and <Skill name="Chilling Isolation"/>.
-
-### *After the completion of the Nightmare Devastation attack:*
-* Weapon swap and change to <Skill name="Legendary Renegade Stance"/> and share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/>.
-* Cast <Skill name="Soulcleaves Summit"/> and <Skill name="Darkrazors Daring"/>.
-* Use <Skill name="Surge of the mists"/> to break the defiance bar.
-
-### *In the case of teleporting to the edge of the platform:*
-* Change to <Skill name="Legendary Renegade Stance"/> and share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/>.
-* Cast <Skill name="Soulcleaves Summit"/> and <Skill name="Icerazors Ire"/>.
-* Use <Skill name="Chilling Isolation"/>, <Skill name="Shackling Wave"/>, and <Skill name="Deathstrike"/> until phase is finished.
-
-### **Annotation**
-* Consider breaking the defiance bar a second time in prolonged phases. Use <Skill name="Surge of the Mists"/> and <Skill name="Darkrazors Daring"/> after the Upswing attack in the first phase, and after the Nightmare Devastation attack in the second phase. In the third phase use <Skill name="Darkrazors Daring"/> on the first defiance bar, and use <Skill name="Surge of the mists"/> immediately when the second defiance bar appears.
-* Using <Skill name="Chilling Isolation"/> before <Skill name="Citadel Bombardment"/> will give you the opportunity to use <Skill name="Chilling Isolation"/> again while Ensolyss is affected by the <Effect name="Exposed"/> debuff.
-* Coordinate with the <Specialization name="Soulbeast"/> in which orb phase to use <Skill name="Breakrazors Bastion"/> to heal the <Skill name="Frost Spirit"/>.
-
-</ConditionalComponent>
-
-<ConditionalComponent condition="static">
-
-<Boss name="ensolyss" video="" timestamp="" videoCreator="" foodId="91805" utilityId="50082" legend1Id="41858" legend2Id="28134" weapon1MainAffix="Berserker" weapon1MainType="sword" weapon1MainSigil1="impact" weapon1MainInfusion1Id="37131" weapon1OffAffix="Berserker" weapon1OffType="sword"  weapon1OffSigil="serpentslaying" weapon1OffInfusionId="37131"  weapon2MainAffix="Berserker" weapon2MainType="staff" weapon2MainSigil1="severance" weapon2MainSigil2="Celerity" weapon2MainInfusion1Id="37131" weapon2MainInfusion2Id="37131">
-- Suggested Boon Duration: `20%`
-- Increase boon duration if you notice significant downtime in <Boon name="Alacrity"/>.
-- <Trait name="Lasting Legacy"/>.
-- <Item id="24865"/>.
-</Boss>
-
-### **Precast**  
-* Precast with higher boon duration, and <Trait name="Righteous Rebel"/>.
-* <Skill name="Enchanted Daggers"/>
 
 
-### **100-66%**
-* Precast <Skill name="Darkrazors Daring"/>, <Skill name="Icerazors Ire"/>.
-* <Skill name="Surge of the Mists"/>.
-* <Skill name="Legendary Assassin Stance"/>.
-* <Skill name="Impossible Odds"/>, <Skill name="Chilling Isolation"/>, <Skill name="Citadel Bombardment"/>, <Skill name="Shackling Wave"/>, <Skill name="Deathstrike"/>, <Skill name="Chilling Isolation"/>.
-
-### **66-33%** / **33-0%**
-* <Skill name="Darkrazors Daring"/>, <Skill name="Orders from Above"/>, <Skill name="Icerazors Ire"/>, <Skill name="Soulcleaves Summit"/>, <Skill name="Heroic Command"/>.
-* <Skill name="Surge of the Mists"/>.
-* <Skill name="Legendary Assassin Stance"/>.
-* <Skill name="Impossible Odds"/>, <Skill name="Chilling Isolation"/>, <Skill name="Citadel Bombardment"/>, <Skill name="Shackling Wave"/>, <Skill name="Deathstrike"/>.
-
-### **Orb Phases**
-* <Skill name="Breakrazors Bastion"/> on <Skill name="Frost Spirit"/>.
 
 
-### **Annotation**
-* Coordinate with <Specialization name="Soulbeast"/> when to use <Skill name="Orders from Above"/> with <Skill name="Moa Stance"/>.
 
-</ConditionalComponent>
 
----
 
-<ConditionalComponent condition="pug">
-<Boss name="skorvald" video="BVTXG2SMP6Y" timestamp="" videoCreator="Deen [dT]" foodId="91805" utilityId="9443" legend1Id="41858" legend2Id="28419" weapon1MainAffix="Berserker" weapon1MainType="sword" weapon1MainSigil1="impact" weapon1MainInfusion1Id="37131" weapon1OffAffix="berserker" weapon1OffType="sword"  weapon1OffSigil="force" weapon1OffInfusionId="37131"  weapon2MainAffix="Berserker" weapon2MainType="staff" weapon2MainSigil1="force" weapon2MainSigil2="severance" weapon2MainInfusion1Id="37131" weapon2MainInfusion2Id="37131">
-**Suggested Boon Duration:** `80%`
-- Maintaining <Boon name="Alacrity"/> in this encounter does require higher boon duration due to the length of the fight, and the necessity for <Boon name="Alacrity"/> throughout the encounter. Increase your concentration if you notice downtime in <Boon name="Alacrity"/>.
-</Boss>
 
-### **Precast**  
-* Cast <Skill name="Ordersfromabove"/> for <Boon name="Alacrity"/> and <Skill name="Renewingwave"/> to blast <Boon name="Might"/>, take the _Mistlock Singularity_ and repeat. The two casts of <Skill name="Ordersfromabove"/> overlap and grant twice the duration of <Boon name="Alacrity"/>. You can use <Skill name="DroptheHammer"/> for an additional <Boon name="Might"/> blast.
 
-### **100-66%**  
-* Precast <Skill name="Darkrazors Daring"/> when the <Specialization name="Weaver"/> is casting <Skill name="Meteorshower"/>.
-* Cast <Skill name="Icerazors Ire"/> right before triggering the instance.
-* Use <Skill name="Surge of the Mists"/> through Skorvald to break the defiance bar. Be aware of positioning to gain an extra hit.
-* Weapon swap and change to <Skill name="Legendary Dwarf Stance"/>, this will grant you extra energy from the trait <Trait name="Charged Mists"/>.
-* Cast <Skill name="Citadel Bombardment"/>, <Skill name="Chilling Isolation"/>, and <Skill name="Deathstrike"/>.
-* Share <Boon name="Alacrity"/> with <Skill name="Orders from above"/> when the phase ends.
 
-### _1st Add_
-* Share <Boon name="Might"/> with <Skill name="Heroic Command"/>.
-* Change to <Skill name="Legendary Renegade Stance"/>.
-* Use <Skill name="Shackling Wave"/>.
 
-### _2nd Add_  
-* Cast <Skill name="Icerazors Ire"/>, and <Skill name="Soulcleaves Summit"/> while the add is charging the knockback attack.
-* Use <Skill name="Citadel Bombardment"/>, <Skill name="Chilling Isolation"/>, and <Skill name="Heroic Command"/> to share <Boon name="Might"/>.
-* Change to <Skill name="Legendary Dwarf Stance"/>.
 
-### _3rd Add_
-* Use <Skill name="Inspiring Reinforcement"/>.
-* Share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/>.
-* Use <Skill name="Shackling wave"/>.
+<Tab title="222 Agony Resistance">
 
-### _4th Add_ 
-* Use <Skill name="Inspiring Reinforcement"/>, and activate <Skill name="Vengeful Hammers"/>.
-* Use <Skill name="Citadel Bombardment"/>, share <Boon name="Might"/> with <Skill name="Heroic Command"/>.
-* Change to <Skill name="Legendary Renegade Stance"/>, and use <Skill name="Chilling Isolation"/>.
+<Grid>
+<GridItem sm="2">
+</GridItem>
+<GridItem sm="4">
+80% Boon Duration.
+<Armor weight="Heavy" helmAffix="Diviner" helmRune="Scholar" shouldersAffix="Berserker" shouldersRune="Scholar" coatAffix="Diviner" coatRune="Scholar" glovesAffix="Berserker" glovesRune="Scholar" leggingsAffix="Diviner" leggingsRune="Scholar" bootsAffix="Berserker" bootsRune="Scholar" helmInfusionId="37131" shouldersInfusionId="37131" coatInfusionId="37131" glovesInfusionId="37131" leggingsInfusionId="37131" bootsInfusionId="37131"/>
+</GridItem>
 
-### **66-33%** / **33-0%**
-* Share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/>.
-* Cast <Skill name="Soulcleaves Summit"/> and <Skill name="Icerazors Ire"/> immediately.
-* Deplete your energy with <Skill name="Chilling Isolation"/>, <Skill name="Deathstrike"/>, and <Skill name="Shackling Wave"/>.
-* Change to <Skill name="Legendary Dwarf Stance"/>, and use <Skill name="Citadel Bombardment"/>, <Skill name="Chilling Isolation"/>, <Skill name="Deathstrike"/>, and <Skill name="Shackling Wave"/> until the phase is finished.
-* Share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/> when the phase ends.
+<GridItem sm="4">
+50% Boon duration.
+<Armor weight="Heavy" helmAffix="Berserker" helmRune="Scholar" shouldersAffix="Berserker" shouldersRune="Scholar" coatAffix="Diviner" coatRune="Scholar" glovesAffix="Berserker" glovesRune="Scholar" leggingsAffix="Diviner" leggingsRune="Scholar" bootsAffix="Berserker" bootsRune="Scholar" helmInfusionId="37131" shouldersInfusionId="37131" coatInfusionId="37131" glovesInfusionId="37131" leggingsInfusionId="37131" bootsInfusionId="37131"/>
+</GridItem>
+<GridItem sm="2">
+</GridItem>
+ 
 
-### _Adds_
-* Replicate the skill order mentioned above in the earlier add phase.
+ <GridItem sm="2">
+</GridItem>
+<GridItem sm="4">
+<BackAndTrinkets backItemAffix="Diviner" accessory1Affix="Berserker" accessory2Affix="Berserker" amuletAffix="Diviner" ring1Affix="Diviner" ring2Affix="Diviner" backItemInfusion1Id="37131" backItemInfusion2Id="37131" accessory1InfusionId="37131" accessory2InfusionId="37131" ring1Infusion1Id="37131" ring1Infusion2Id="37131" ring1Infusion3Id="37131" ring2Infusion1Id="37131" ring2Infusion2Id="37131" ring2Infusion3Id="37131"/>
+</GridItem>
 
-### **Annotation** 
-* Cast <Skill name="Citadel Bombardment"/> right as you jump the shockwave of the 2nd and 4th add. This can save you some time with a good party.
-* Be aware of positioning when sharing <Boon name="Alacrity"/> and <Boon name="Might"/> on the islands. Make sure everyone has landed before sharing.
-* Cancel <Skill name="Surge of the Mists"/> once you are through the hitbox to gain time to do more damage in the first phase. 
+<GridItem sm="4">
+<BackAndTrinkets backItemAffix="Berserker" accessory1Affix="Berserker" accessory2Affix="Berserker" amuletAffix="Berserker" ring1Affix="Berserker" ring2Affix="Berserker" backItemInfusion1Id="37131" backItemInfusion2Id="37131" accessory1InfusionId="37131" accessory2InfusionId="37131" ring1Infusion1Id="37131" ring1Infusion2Id="37131" ring1Infusion3Id="37131" ring2Infusion1Id="37131" ring2Infusion2Id="37131" ring2Infusion3Id="37131"/>
+</GridItem>
+<GridItem sm="2">
+</GridItem>
 
-</ConditionalComponent>
+</Grid>
+</Tab>
+</Tabs>
 
-<ConditionalComponent condition="static">
-<Boss name="skorvald" video="Ew0ebu3oUTY" timestamp="5" videoCreator="Lasse [dT]" foodId="91805" utilityId="9443" legend1Id="41858" legend2Id="28419" weapon1MainAffix="Berserker" weapon1MainType="sword" weapon1MainSigil1="impact" weapon1MainInfusion1Id="37131" weapon1OffAffix="berserker" weapon1OffType="sword"  weapon1OffSigil="Elementalslaying" weapon1OffInfusionId="37131"  weapon2MainAffix="Berserker" weapon2MainType="staff" weapon2MainSigil1="Impact" weapon2MainSigil2="Force" weapon2MainInfusion1Id="37131" weapon2MainInfusion2Id="37131">
-- Suggested Boon Duration: `80%`
-- Lower boon duration when possible.
-- <Trait name="Dance of Death"/>.
-- <Item id="24661"/>.
-</Boss>
+<Divider text="Build"/>
+<Grid>
+<GridItem sm="4">
+<Grid>
+<GridItem sm="12">
+<Weapons weapon1MainType="Sword" weapon1MainAffix="Diviner" weapon1MainSigil1="Impact" weapon1OffType="Sword" weapon1OffAffix="Diviner" weapon1OffSigil="Force" weapon2MainType="Staff" weapon2MainAffix="Diviner" weapon2MainSigil1="Severance" weapon2MainSigil2="Force" weapon1MainInfusion1Id="37131" weapon2MainInfusion1Id="37131" weapon1OffInfusionId="37131" weapon2MainInfusion2Id="37131"/>
+</GridItem>
 
-### **Precast**  
-* <Skill name="Enchanted Daggers"/>
+<GridItem sm="12">
+<Consumables food="Bowl of Sweet and Spicy Butternut Squash Soup" utility="Tin of Fruitcake" infusion="Mighty +9 Agony Infusion"/>
+</GridItem>
+</Grid>
+</GridItem>
 
-### **100-66%**  
-* Precast <Skill name="Darkrazors Daring"/>, <Skill name="Icerazors Ire"/>, <Skill name="Breakrazors Bastion"/>.
-* <Skill name="Surge of the Mists"/>.
-* <Skill name="Legendary Dwarf Stance"/>.
-* <Skill name="Citadel Bombardment"/>, <Skill name="Chilling Isolation"/>, <Skill name="Deathstrike"/>.
+<GridItem sm="8">
+<Traits traits1="Devastation" traits1Selected="Unsuspecting Strikes,Assassins Presence,Dance of Death" traits2="Invocation" traits2Selected="Rising Tide,Spirit Boon,Charged Mists" traits3="Renegade" traits3Selected="Ashen Demeanor,All for One,Righteous Rebel"/>
+</GridItem>
 
-### _1st Add_
-* <Skill name="Inspiring Reinforcement"/>, <Skill name="Orders from Above"/>, <Skill name="Shackling Wave"/>, <Skill name="Heroic Command"/>, <Skill name="Vengeful Hammers"/>.
-* <Skill name="Legendary Renegade Stance"/>.
+<GridItem sm="4">
+<Card title="Situational Traits">
+| | |
+| -- | -- |
+| <Trait id="1800" size="big" disableText/> | With good group DPS and on Bosses with high <Effect name="Exposed"/> uptime this might pull ahead of <Trait id="1754"/>. |
+| <Trait id="1781" size="big" disableText/> | If you can't profit from <Trait id="1774"/> and your <Boon name="Might"/> uptimes are low. |
+</Card>
+<Card title="Situational Skills">
+| | |
+| -- | -- |
+| <Skill id="28075" size="big" disableText/> | This skill grants you <Effect name="Superspeed"/> which is really useful for skipping. |
+</Card>
+</GridItem>
 
-### _2nd Add_  
-* <Skill name="Soulcleaves Summit"/>, <Skill name="Icerazors Ire"/>, <Skill name="Citadel Bombardment"/>, <Skill name="Chilling Isolation"/>, <Skill name="Heroic Command"/>.
-* <Skill name="Legendary Dwarf Stance"/>.
+<GridItem sm="8">
+<Card title="Herald Precasting">
+Sometimes it is worth precasting with <Specialization name="Herald"/> because <Specialization name="Herald"/> has access to <Skill id="51667"/> which is *incredibly* strong skill to precast, if you can manage to fit it into your groups precasting. If your group is blasting <Boon name="Might"/>, you can forgo using <Skill id="29321"/> in your precasting and just precast <Boon name="Alacrity"/> and extending everyone else's boons with <Skill id="51667"/>.
 
-### _3rd Add_
-* <Skill name="Inspiring Reinforcement"/>, <Skill name="Orders from Above"/>, <Skill name="Shackling Wave"/>.
-* Place <Item id="78978"/>.
+It is recommended to have a build template for this, so you can quickly swap between templates by using hotkeys (need to be setup in the settings). Here's the Herald trait line:
+<Traits unembossed traits1Id="52" traits1="Herald" traits1SelectedIds="1806,1738,1772"/>
 
-### _4th Add_  
-* <Skill name="Inspiring Reinforcement"/>, <Skill name="Citadel Bombardment"/>,<Skill name="Vengeful Hammers"/>, <Skill name="Heroic Command"/>, <Skill name="Chilling Isolation"/>.
-* <Skill name="Legendary Renegade Stance"/>.
+Template code: `[&DQkDKgwrNCbcEQAABhIAACsSAADUEQAAyhEAAAEAAAAAAAAAAAAAAAAAAAA=]`
 
-### **66-33%**
-* <Skill name="Soulcleaves Summit"/>, <Skill name="Orders from Above"/>, <Skill name="Chilling Isolation"/>.
-* Open <Item id="78978"/>.
 
-### _Add_
-* <Skill name="Icerazors Ire"/>.
-* <Skill name="Legendary Dwarf Stance"/>.
-* <Skill name="Inspiring Reinforcement"/>, <Skill name="Shackling Wave"/>, <Skill name="Chilling Isolation"/>, <Skill name="Vengful Hammers"/>, <Skill name="Deathstrike"/>, <Skill name="Chilling Isolation"/>.
-* Take <Item id="78978"/>.
 
-### **33-0%**
-* <Skill name="Orders from Above"/>.
-* <Skill name="Legendary Renegade Stance"/>.
-* <Skill name="Icerazors Ire"/>, <Skill name="Shackling Wave"/>, <Skill name="Heroic Command"/>, <Skill name="Citadel Bombardment"/>, <Skill name="Chilling Isolation"/>, <Skill name="Deathstrike"/>.
-</ConditionalComponent>
+<Message>
+The other legend is unselected for a good reason. If you have the other legend slot empty, it will minimise the amount of possible bugs with <Specialization name="Renegade"/> and build templates. You can read more about the bugs [here](https://wiki.guildwars2.com/wiki/Template#Build_Template).
+</Message>
+
+To precast with <Specialization name="Herald"/>, you can go very simple:
+
+1. Start on <Specialization name="Renegade"/> and use <Skill id="45537"/>.
+2. Swap to <Specialization name="Herald"/> template and use <Skill id="51667"/>.
+3. Take the Mistlock Singularity.
+4. Cast <Skill id="51667"/> again.
+5. Swap to <Specialization name="Renegade"/> and use <Skill id="45537"/>.
+</Card>
+</GridItem>
+</Grid>
+
+<Divider text="Guide"/>
+<Grid>
+<GridItem sm="12">
+<Card title="Abilities">
+**Citadel Order Skills:**
+
+- <Skill name="Heroic Command"/> -  Share two stacks of <Boon name="Might"/> for each <SpecialActionKey name="kallas fervor"/> stack.
+- <Skill name="Citadel Bombardment"/> - Fire ten missiles that inflict high damage and <Condition name="Burning"/>.
+- <Skill name="Orders from Above"/> - Share four pulses of <Boon name="Alacrity"/>.
 
 ---
 
-<ConditionalComponent condition="pug">
-<Boss name="artsariiv" video="Mw1lAIF-n0k" timestamp="" videoCreator="Deen [dT]" foodId="91805" utilityId="9443" legend1Id="41858" legend2Id="28419" weapon1MainAffix="Berserker" weapon1MainType="sword" weapon1MainSigil1="impact" weapon1MainInfusion1Id="37131" weapon1OffAffix="berserker" weapon1OffType="sword"  weapon1OffSigil="force" weapon1OffInfusionId="37131"  weapon2MainAffix="Berserker" weapon2MainType="staff" weapon2MainSigil1="force" weapon2MainSigil2="severance" weapon2MainInfusion1Id="37131" weapon2MainInfusion2Id="37131">
-**Suggested Boon Duration:** `80%`
-- Maintaining <Boon name="Alacrity"/> in this encounter does require higher boon duration due to the length of the fight, and the necessity for <Boon name="Alacrity"/> throughout the encounter. Increase your concentration if you notice downtime in <Boon name="Alacrity"/>.
+**Sword Skills:**
 
+- <Skill name="Preparation Thrust"/> - The auto-attack chain cleaves and provides <Condition name="Vulnerability"/> on the two first attacks. The third attack creates an exploding rift on up to three targets, with each explosion hitting three targets. Potentially hitting nine times. 
+- <Skill name="Chilling Isolation"/> - High damage skill with low cooldown and energy cost, also provides <Condition name="Chilled"/>. The second attack deals increased damage to isolated enemies.
+- <Skill name="Unrelenting Assault"/> - A two second evade that also provides <Boon name="Might"/> to yourself. 
+- <Skill name="Shackling Wave"/> - High damage skill, however should be used in key moments due to the energy cost, cooldown, and application of <Condition name="Vulnerability"/>.
+- <Skill name="Death strike"/> - Shadowsteps to target, grants two hits with decent damage. Can be used for mobility and/or damage depending on how timing and energy allow it. 
 
-### **For this encounter it is recommended to run the following traits in Devastation trait line:**
+**Staff Skills:**
 
-<Traits unembossed traits1Id="15" traits1="Devastation" traits1SelectedIds="1767,1786,1754"/>
-
-</Boss>
-
-### **Precast**  
-* Cast <Skill name="Ordersfromabove"/> for <Boon name="Alacrity"/> and <Skill name="Renewingwave"/> to blast <Boon name="Might"/>, take the _Mistlock Singularity_ and repeat. The two casts of <Skill name="Ordersfromabove"/> overlap and grant twice the duration of <Boon name="Alacrity"/>. You can use <Skill name="DroptheHammer"/> for an additional <Boon name="Might"/> blast.
-
-### **100-66%**
-* Precast <Skill name="Darkrazors Daring"/> and <Skill name="Icerazors Ire"/> at Artsariiv's location after triggering the encounter.
-* Manually change to <Skill name="Legendary Dwarf Stance"/> using the legend UI before Artsariiv becomes vulnerable.
-* Use <Skill name="Shackling Wave"/>, and share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/>.
-* Share <Boon name="Might"/> with <Skill name="Heroic Command"/> before using the <SpecialActionKey name="hypernovalaunch"/> to the corner. 
-* Weapon swap and use <Skill name="Inspiring Reinforcement"/> to grant <Boon name="Stability"/> for the party.
-* Change to <Skill name="Legendary Renegade Stance"/>, and precast <Skill name="Darkrazors Daring"/>, <Skill name="Icerazors Ire"/>, and <Skill name="Soulcleaves Summit"/> at the location where Artsarriv will appear.
-* Use <Skill name="Surge of the Mists"/> to break the defiance bar. Use it with the <SpecialActionKey name="hypernovalaunch"/> to gain additional hits.
-* Weapon swap and change to <Skill name="Legendary Dwarf Stance"/>.
-
-### _Add_
-* Use <Skill name="Forced Engagement"/> and <Skill name="Shackling Wave"/> to break the adds defiance bar.
-
-
-### **66-33%**
-* Share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/> when everyone is in the middle. 
-* Use <Skill name="Inspiring Reinforcement"/> to grant <Boon name="Stability"/> for the large AoE attack.
-* Change to <Skill name="Legendary Renegade Stance"/>, and use <Skill name="Soulcleaves Summit"/> and <Skill name="Citadel Bombardment"/>.
-* Share <Boon name="Might"/> with <Skill name="Heroic Command"/>.
-* Use <Skill name="Chilling Isolation"/> and <Skill name="Shackling Wave"/> to deplete your energy.
-* Change to <Skill name="Legendary Dwarf Stance"/>, and use your <SpecialActionKey name="hypernovalaunch"/> to the corner.
-* Use <Skill name="Inspiring Reinforcement"/> to grant <Boon name="Stability"/> at the corner.
-* Share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/>.
-* Share <Boon name="Might"/> with <Skill name="Heroic Command"/>.
-* Use <Skill name="Chilling Isolation"/> and <Skill name="Shackling Wave"/> for additional damage.
-* Weapon swap to staff when the phase ends.
-
-### _Add_
-* Use <Skill name="Forced Engagement"/> on the first add. 
-* Use <Skill name="Surge of the Mists"/> on the second add.
-
-### **33-0%**
-* Share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/> when everyone is in the middle. 
-* Use <Skill name="Inspiring Reinforcement"/> to grant <Boon name="Stability"/> for the large AoE attack.
-* Change to <Skill name="Legendary Renegade Stance"/>, and use <Skill name="Soulcleaves Summit"/> and <Skill name="Citadel Bombardment"/>.
-* Share <Boon name="Might"/> with <Skill name="Heroic Command"/>.
-* Use <Skill name="Chilling Isolation"/> and <Skill name="Shackling Wave"/> to deplete your energy.
-* Change to <Skill name="Legendary Dwarf Stance"/>, and use your <SpecialActionKey name="hypernovalaunch"/> to the corner.
-* Use <Skill name="Inspiring Reinforcement"/> to grant <Boon name="Stability"/> at the corner.
-* Share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/>.
-* Share <Boon name="Might"/> with <Skill name="Heroic Command"/>.
-* Use <Skill name="Chilling Isolation"/> and <Skill name="Shackling Wave"/> for additional damage.
-
-**Annotation**
-* After using <Skill name="Inspiring Reinforcement"/>, make sure you gain the extra energy from <Trait name="Charged Mists"/> in the first phase. 
-* Time <Skill name="Inspiring Reinforcement"/> so that <Boon name="Stability"/> lasts long enough for the AoE attack in the middle.
-* Use <SpecialActionKey name="hypernovalaunch"/> while using <Skill name="Surge of the Mists"/> to break the defiance bar as quickly as possible.
-* Be aware of energy management before changing to <Skill name="Legendary Renegade Stance"/> in the middle in order to gain the extra energy from <Trait name="Charged Mists"/>.
-
-</ConditionalComponent>
-
-<ConditionalComponent condition="static">
-<Boss name="artsariiv" video="Ew0ebu3oUTY" timestamp="86" videoCreator="Lasse [dT]" foodId="91805" utilityId="9443" legend1Id="41858" legend2Id="28419" weapon1MainAffix="Berserker" weapon1MainType="sword" weapon1MainSigil1="impact" weapon1MainInfusion1Id="37131" weapon1OffAffix="berserker" weapon1OffType="sword"  weapon1OffSigil="force" weapon1OffInfusionId="37131"  weapon2MainAffix="Berserker" weapon2MainType="staff" weapon2MainSigil1="force" weapon2MainSigil2="severance" weapon2MainInfusion1Id="37131" weapon2MainInfusion2Id="37131">
-- Suggested Boon Duration: `60%`
-- Lower boon duration when possible.
-- <Trait name="dance of Death"/>.
-- <Trait name="Lasting Legacy"/>. 
-</Boss>
-
-
-### **Precast**  
-* <Skill name="Enchanted Daggers"/>
-* <Skill name="Pain Absorption"/>
-
-### **100-66%**
-* Precast <Skill name="Darkrazors Daring"/>, <Skill name="Icerazors Ire"/>.
-* <Skill name="Legendary Dwarf Stance"/>, UI change.
-* <Skill name="Vengeful Hammers"/>, <Skill name="Citadel Bombardment"/>, <Skill name="Chilling Isolation"/>.
-* <Skill name="Legendary Renegade Stance"/>.
-* <Skill name="Soulcleaves Summit"/>, <Skill name="Heroic Command"/>, <Skill name="Shackling wave"/>, <Skill name="Deathstrike"/>, <Skill name="Unrelenting Assault"/>.
-
-
-### **66-33%**
-* <Skill name="Breakrazors Bastion"/>, <Skill name="Soulcleaves Summit"/>, <Skill name="Orders from Above"/>, <Skill name="Heroic Command"/>.
-* <Skill name="legendary Dwarf Stance"/>.
-* <Skill name="Citadel Bombardment"/>, <Skill name="Chilling Isolation"/>, <Skill name="Unrelenting Assault"/>, <Skill name="Shackling Wave"/>, <Skill name="Deathstrike"/>.
-* <Skill name="Heroic Command"/>.
-* <Skill name="Inspiring Reinforcement"/>, <Skill name="Orders from Above"/>, <Skill name="Chilling Isolation"/>, <Skill name="Shackling Wave"/>, <Skill name="Deathstrike"/>.
-
-### _Add_
-* <Skill name="Forced Engagement"/> for one add.
-
-### **33-0%**
-* Precast <Skill name="Inspiring Reinforcement"/>, <Skill name="Orders from Above"/>.
-* <Skill name="Legendary Renegade Stance"/>.
-* <Skill name="Soulcleaves Summit"/>, <Skill name="Icerazors Ire"/>, <Skill name="Heroic Command"/>, <Skill name=" Chilling Isolation"/>, <Skill name="Deathstrike"/>, <Skill name="Shackling Wave"/>. 
-
-**Annotation**
-* Make sure <Skill name="Soulcleaves Summit"/> is up from the moment Artsariiv is vulnerable at 33%. 
-
-</ConditionalComponent>
+- <Skill name="Rapid Swipe"/> - The auto-attack chain cleaves and the last hit provides a small amount of healing to allies.
+- <Skill name="Menders Rebuke"/> - Provides <Condition name="Weakness"/> and a small amount of healing to allies.
+- <Skill name="Warding Rift"/> - A two second block that <Condition name="Blinded"/> foes. 
+- <Skill name="Renewing Wave"/> - Provides a blast for a combo field, cleanses two conditions and heals allies.
+- <Skill name="Surge of the Mists"/> - The strongest Crowd Control skill in your arsenal, which grants between three and nine hits of <Control name="Knockback"/>. 
 
 ---
 
-<ConditionalComponent condition="pug">
-<Boss name="arkk" video="yadsI_KvvDo" timestamp="" videoCreator="Deen [dT]" foodId="43360" utilityId="50082" legend1Id="41858" legend2Id="28134" weapon1MainAffix="Berserker" weapon1MainType="sword" weapon1MainSigil1="impact" weapon1MainInfusion1Id="37131" weapon1OffAffix="berserker" weapon1OffType="sword"  weapon1OffSigil="force" weapon1OffInfusionId="37131"  weapon2MainAffix="Berserker" weapon2MainType="staff" weapon2MainSigil1="force" weapon2MainSigil2="severance" weapon2MainInfusion1Id="37131" weapon2MainInfusion2Id="37131">
-**Suggested Boon Duration:** `80%`
-- Maintaining <Boon name="Alacrity"/> in this encounter does require higher boon duration due to the length of the fight, and the necessity for <Boon name="Alacrity"/> throughout the encounter. Increase your concentration if you notice downtime in <Boon name="Alacrity"/>.
+**Notable Traits:**
 
-### **For this encounter it is recommended to run the following traits in Devastation trait line:**
+- <Trait name="Swift Termination"/> - 20% damage increase when foe is below 50% health.
+- <Trait name="Dance of Death"/> - When you apply <Condition name="Vulnerability"/> you gain stacks of <Uncategorized name="Battle Scars"/>, which makes your attack steal health. This trait is the DPS alternative for <Trait name="Swift Termination"/>. Usually it stands for ~ 10 - 12 % of damage, but doesn't scale with <Effect name="Exposed"/>. Pulls ahead over <Trait name="Swift Termination"/> in fights where majority of damage is dealt outside of <Effect name="Exposed"/> debuff. Also worth taking in PuG groups on most bosses to ensure Scholar buff uptime and due to lower <Effect name="Exposed"/> uptime on bosses.
+- <Trait name="Rising Tide"/> - 7% damage increase while your health is above 90%. 
+- <Trait name="Spirit Boon"/> - Grants a boon on legend swap depending on the legend you are swapping to.
+- <Trait name="Incensed Response"/> - Grants <Boon name="Might"/> every time you get <Boon name="Fury"/>. Can be used instead of <Trait name="Spirit Boon"/> if <Boon name="Might"/> provided by the Group is low.
+- <Trait name="Charged Mists"/> - Grant 25 more energy when you swap Legends below 10 energy.
+- <Trait name="Ashen Demeanor"/> - Disabling a foe provides <Condition name="Vulnerability"/>.
+- <Trait name="Brutal Momentum"/> - 33% Critical chance increase when your endurance is full. 
+- <Trait name="Lasting Legacy"/> - <Skill name="Heroic Command"/> shares more stacks of <Boon name="Might"/> and the duration is increased by 50%. 
+- <Trait name="Righteous Rebel"/> - The duration of <Boon name="Alacrity"/> shared from <Skill name="Orders from Above"/> is increased by 50%. 
+- <Trait name="All for One"/> - Grants allies <Boon name="Protection"/> every time you use a <Skill name="Legendary Renegade Stance"/> skill.
 
-<Traits unembossed traits1Id="15" traits1="Devastation" traits1SelectedIds="1767,1786,1754"/>
+</Card>
+</GridItem>
 
-</Boss>
+</Grid>
+<Grid>
+<GridItem sm="12">
+<Card title="Legends">
 
+**<Skill name="Legendary Renegade Stance"/>**
 
-### **Precast**  
-* Cast <Skill name="Ordersfromabove"/> for <Boon name="Alacrity"/> and <Skill name="Renewingwave"/> to blast <Boon name="Might"/>, take the _Mistlock Singularity_ and repeat. The two casts of <Skill name="Ordersfromabove"/> overlap and grant twice the duration of <Boon name="Alacrity"/>. You can use <Skill name="DroptheHammer"/> for an additional <Boon name="Might"/> blast.
+- <Skill name="Breakrazors Bastion"/> - Summons a spirit that heals you on cast and pulses heal to allies in an area around it. Reduces damage taken from conditions by 50%.
+- <Skill name="Razorclaws Rage"/> - Summons a spirit that causes your party to inflict <Condition name="Bleeding"/> on attack.
+- <Skill name="Darkrazors Daring"/> - Summons a spirit that <Control name="Daze"/>s enemies in an area around it for ¼ of a second once per second for six seconds.
+- <Skill name="Icerazors Ire"/> -  Summons a spirit that deals high damage to enemies around it and inflicts <Condition name="Vulnerability"> on the targets.
+- <Skill name="Soulcleaves Summit"/> - Summons a spirit that provides a firefield which can be combined with blast combo finishers for <Boon name="Might"/>.
 
-### **100-80%**
-* Cast <Skill name="Soulcleaves Summit"/> on Arkk and auto-attack until the Anomaly appear.
-* Cast <Skill name="Icerazors Ire"/> on the Anomaly.
-* Change to <Skill name="Legendary Assassin Stance"/>.
-* Activate <Skill name="Impossible Odds"/>, and use <Skill name="Chilling Isolation"/> and <Skill name="Shackling Wave"/> to finish the Anomaly.
-* Use <Skill name="Deathstrike"/> to quickly get back to Arkk.
-* Share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/>.
-* Deplete your energy with <Skill name="Chilling Isolation"/>.
-* Weapon swap and change to <Skill name="Legendary Renegade Stance"/> when the phase is finished.
+---
 
-### **80-70%**
-* Precast <Skill name="Darkrazors Daring"/>, <Skill name="Icerazors Ire"/>, and <Skill name="Soulcleaves Summit"/> at Arkk's location. 
-* Share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/>.
-* Use <Skill name="Surge of the Mists"/> with the <SpecialActionKey name="hypernovalaunch"/> to break the defiance bar.
-* Share <Boon name="Might"/> with <Skill name="Heroic Command"/>.
-* Weapon swap and change to <Skill name="Legendary Assassin Stance"/>.
+**<Skill name="Legendary Assassin Stance"/>**
 
-### **Archdiviner**
-* Activate <Skill name="Impossible Odds"/>, and use <Skill name="Citadel Bombardment"/>, <Skill name="Chilling Isolation"/>, and <Skill name="Shackling Wave"/>.
-* Use <SpecialActionKey name="hypernovalaunch"/> if the defiance bar appears.
-* Change to <Skill name="Legendary Renegade Stance"/> when the phase is finished.
+- <Skill name="Enchanted Daggers"/> - Your next six attacks siphon life from your target on a 1/2 seconds internal cooldown.
+- <Skill name="Phase Traversal"/> - Shadowsteps you to your target and grants you <Boon name="Quickness"/>.
+- <Skill name="Riposting Shadows"/> - Stunbreak and evade that removes movement-impairing conditions like <Condition name="Crippled"/>.
+- <Skill name="Impossible Odds"/> - **Toggle:** Damage modifier, grants you another hit on your attacks and increases your movement speed.
+- <Skill name="Jade Winds"/> - Deal damage, inflict <Condition name="Vulnerability"/> and <Control name="Stun"/> five nearby enemies.
 
-### **70-50%**
-* Cast <Skill name="Soulcleaves Summit"/>, and <Skill name="Icerazors Ire"/>.
-* Share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/>.
-* Share <Boon name="Might"/> with <Skill name="Heroic Command"/>.
-* Change to <Skill name="Legendary Assassin Stance"/>.
-* Activate <Skill name="Impossible Odds"/>, and use <Skill name="Citadel Bombardment"/>, <Skill name="Chilling Isolation"/>, and <Skill name="Shackling Wave"/>.
-* Weapon swap and change to <Skill name="Legendary Renegade Stance"/> when the phase is finished.
+---
 
-### **50-40%**
-* Precast <Skill name="Darkrazors Daring"/>, <Skill name="Icerazors Ire"/>, and <Skill name="Soulcleaves Summit"/> at Arkk's location. 
-* Share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/>.
-* Use <Skill name="Surge of the Mists"/> with the <SpecialActionKey name="hypernovalaunch"/> to break the defiance bar.
-* Share <Boon name="Might"/> with <Skill name="Heroic Command"/>.
-* Weapon swap and change to <Skill name="Legendary Assassin Stance"/>.
+**<Skill name="Legendary Dwarf Stance"/>**
 
-### **Gladiator**
-* Activate <Skill name="Impossible Odds"/>, and use <Skill name="Citadel Bombardment"/>, <Skill name="Chilling Isolation"/>, and <Skill name="Shackling Wave"/>.
-* Use <SpecialActionKey name="hypernovalaunch"/> if the defiance bar appear.
-* Change to <Skill name="Legendary Renegade Stance"/> when the phase is finished.
+- <Skill name="Soothing Stone"/> - Powerful self heal and condition cleanse.
+- <Skill name="Inspiring Reinforcement"/> - Grant <Boon name="Stability"/> to your party and inflict <Condition name="Weakness"/> and damage to enemies standing in the field. 
+- <Skill name="Forced Engagement"/> - Shoot out a chain to your target that applies <Condition name="Taunt"/> and <Condition name="Slow"/> to your target and four nearby enemies.
+- <Skill name="Vengeful Hammers"/> - **Toggle:** Summon hammers to spin around you dealing damage to nearby enemies while draining your energy.
+- <Skill name="Rite of the Great Dwarf"/> - Stunbreak which reduces incoming damage by 50% for your party.
 
-### **40-30%**
-* Share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/> in the middle.
-* Cast <Skill name="Icerazors Ire"/> on the Anomaly.
-* Use <Skill name="Chilling Isolation"/> and <Skill name="Shackling wave"/> to finish of the Anomaly.
-* Weapon swap at the end of the phase.
+---
 
-### **30-0%**
-* Precast <Skill name="Darkrazors Daring"/>, <Skill name="Icerazors Ire"/>, and <Skill name="Soulcleaves Summit"/> at Arkk's location. 
-* Share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/>.
-* Use <Skill name="Surge of the Mists"/> with the <SpecialActionKey name="hypernovalaunch"/> to break the defiance bar.
-* Weapon swap and change to <Skill name="Legendary Assassin Stance"/>.
-* Share <Boon name="Alacrity"/> with <Skill name="Orders from Above"/>.
-* Activate <Skill name="Impossible Odds"/>, and use <Skill name="Citadel Bombardment"/>, <Skill name="Chilling Isolation"/>, and <Skill name="Shackling Wave"/> until the encounter is finished.
+**<Skill name="Legendary Demon Stance"/>**
 
-### **Annotation**
-* Kill the Anomaly in the 70-50% phase if your party struggles to survive without the _Mistlock Singularity_ for the remainder of the encounter.
-    * Use <Skill name="Icerazors Ire"/>, <Skill name="Chilling Isolation"/>, and <Skill name="Shackling Wave"/> to finish the Anomaly in this case.
-* Weapon swap back to swords as early as you can in the phases where you break the defiance bar. 
-* Precast <Skill name="Darkrazors Daring"/> early enough to gain energy for <Skill name="Surge of the Mists"/> in the opening of 80-70%, 50-40%, and 30-0%. 
+- <Skill name="Empowering Misery"/> - A decent self-heal that heals more for each unique condition on you.
+- <Skill name="Pain Absorption"/> - Draw one condition from nearby allies and provide <Boon name="Resistance"/> to your party. Also works as a stunbreak.
+- <Skill name="Banish Enchantment"/> - Removes three boons from enemies in a line up to five unique enemies and causes <Condition name="Chilled"/> on enemies hit.
+- <Skill name="Call to Anguish"/> - Jump to a location and pull five nearby enemies inflicting <Condition name="Chilled"/> on them.
+- <Skill name="Embrace the Darkness"/> - **Toggle:** Deal damage to nearby enemies and pulse <Condition name="Torment"/> to them. Drains energy when toggled on.
 
-</ConditionalComponent>
+---
 
+**<Skill name="Legendary Centaur Stance"/>**
 
-<ConditionalComponent condition="static">
-<Boss name="arkk" video="pydLOIq9peQ" timestamp="140" videoCreator="Lasse [dT]" foodId="43360" utilityId="50082" legend1Id="41858" legend2Id="28134" weapon1MainAffix="Berserker" weapon1MainType="sword" weapon1MainSigil1="impact" weapon1MainInfusion1Id="37131" weapon1OffAffix="berserker" weapon1OffType="sword"  weapon1OffSigil="force" weapon1OffInfusionId="37131"  weapon2MainAffix="Berserker" weapon2MainType="staff" weapon2MainSigil1="force" weapon2MainSigil2="severance" weapon2MainInfusion1Id="37131" weapon2MainInfusion2Id="37131">
-- Suggested Boon Duration: `80%`
-- <Trait name="Dance of Death"/>.
-</Boss>
+- <Skill name="Project Tranquility"/> - Summon Ventari's Tablet which heals nearby allies every few seconds.
+- <Skill name="Ventaris Will"/> - Move Ventari's Tablet to the target location.
+- <Skill name="Protective Solace"/> - **Toggle:** Summons a protective barrier that **absorbs** (not reflect) projectiles around the tablet.
+- <Skill name="Natural Harmony"/> - Heals the party for a decent amount around the tablet.
+- <Skill name="Purifying Essence"/> - Cleanses three conditions from allies near the tablet and heals per condition cleansed.
+- <Skill name="Energy Expulsion"/> - Drains your remaining energy to explode Ventari's Tablet, cleansing one condition per 10 energy drained. Ventari's Tablet shatters into smaller fragments that can be picked up by allies for a small heal.
+
+</Card>
+</GridItem>
+
+<GridItem sm="12">
+<Card title="Defiance Bar">
+
+**Hard Crowd Control:**
+
+- <Skill name="Surge of the Mists"/> - Up to nine hits of 150 <Control name="Knockback"/>.
+- <Skill name="Darkrazors Daring"/> - Hits for 100 <Control name="Daze"/> per second for up to six seconds.
+- <Skill name="Jade Winds"/> - 300 <Control name="Stun"/>.
+- <Skill name="Call to Anguish"/> - 150 <Control name="Pull"/>.
 
 
-### **Precast**  
-* <Skill name="Enchanted Daggers"/>.
-* Cast <Skill name="Soulcleaves Summit"/> and let it drain energy during the precast.
+**Soft Crowd Control:**
 
-### **100-80%**
-* <Skill name="Icerazors Ire"/>.
-* <Skill name="Legendary Assassin Stance"/>.
-* <Skill name="Impossible Odds"/>, <Skill name="Shackling Wave"/>, <Skill name="Citadel Bombardment"/>, <Skill name="Chilling Isolation"/>, <Skill name="Deathstrike"/>.
-* Turn around.
+- <Skill name="Chilling Isolation"/> - <Condition name="Chilled"/> for 33 per second.
+- <Skill name="Shackling Wave"/> - <Condition name="Immobile"/> for 50 per second.
+- <Skill name="Forced Engagement"/> - <Condition name="Taunt"/> and <Condition name="Slow"/> for 75 and 50 per second.
 
-### _Anomaly_
-* <Skill name="Chilling Isolation"/>
-* You should get help here. 
-* <Skill name="Legendary Renegade Stance"/>.
-* Weaponswap to staff.
+</Card>
+</GridItem>
+</Grid>
 
-### **80-70%**
-* Precast <Skill name="Icerazors Ire"/>, <Skill name="Soulcleaves Summit"/>.
-* <Skill name="Surge of the Mists"/>.
-* <Skill name="Orders from Above"/>, <Skill name="Heroic Command"/>.
-* <Skill name="Legendary Assassin Stance"/>.
-* <Skill name="Deathstrike"/>
 
-### **Archdiviner**
-* <Skill name="Impossible Odds"/>, <Skill name="Shackling Wave"/>, <Skill name="Citadel Bombardment"/>, <Skill name="Chilling Isolation"/>, <Skill name="Heroic Command"/>.
-* <SpecialActionKey name="hypernovalaunch"/> for CC.
-* <Skill name="Chilling Isolation"/>, <Skill name="Enchanted Daggers"/>.
 
-### **70-50%**
-* <Skill name="Icerazors Ire"/>, <Skill name="Soulcleaves Summit"/>. <Skill name="Orders from Above"/>, <Skill name="Chilling Isolation"/>, <Skill name="Deathstrike"/>, <Skill name="Heroic Command"/>.
+<Divider text="Rotation / Skill usage"/>
 
-### _anomaly_
-* <Skill name="Shackling Wave"/>.
-* You should get help here.
-* <Skill name="Breakrazors Bastion"/> on <Skill name="Frost Spirit"/>.
-* Weaponswap to staff.
+<Grid>
+<GridItem xs="12" sm="6">
 
-### **50-40%**
-* Precast <Skill name="Soulcleaves Summit"/>, <Skill name="Orders from Above"/>.
-* <Skill name="Surge of the Mists"/>
-* <Skill name="Legendary Assassin Stance"/>.
-* <Skill name="Heroic Command"/>, <Skill name="Chilling Isolation"/>, <Skill name="Deathstrike"/>.
+<Card title="Information">
+Golem rotations out of the raid builds are generally suboptimal in fractals due to <Effect name="Exposed"/> and phases being much shorter compared to raids. The raid rotations are optimized for sustained DPS while in fractals a player needs the ability to adapt a rotation to the amount of time a group needs to finish a phase.  
 
-### **Gladiator**
-* <Skill name="Impossible Odds"/>, <Skill name="Shackling Wave"/>, <Skill name="Citadel Bombardment"/>, <Skill name="Chilling Isolation"/>, <Skill name="Heroic Command"/>.
-* <Skill name="Enchanted Daggers"/>.
+For that reason you can find a video with openers, that are efficient to use here. 
+</Card>
+<Card title="Renegade openers">
+<Video caption="by Rubby, edited by Vince [dT]" youtube="QXmckcAyKf4"/> 
+</Card>
+</GridItem>
 
-### **40-30%**
-* <Skill name="Icerazors Ire"/>, <Skill name="Soulcleaves Summit"/>. <Skill name="Orders from Above"/>, <Skill name="Chilling Isolation"/>, <Skill name="Deathstrike"/>, <Skill name="Heroic Command"/>.
+<GridItem xs="12" sm="6">
+<Card title="Dealing with No Pain, No Gain">
 
-### _Anomaly_
-* <Skill name="Shackling Wave"/>.
-* You should get help here.
-* Weaponswap to staff.
+There are multiple weapons in your arsenal to deal with the instability <Instability name="No Pain, No Gain"/> and make it easier to manage the boons that the enemy will receive from this instability. For fractals with <Instability name="No Pain, No Gain"/> it is recommended to run a staff with <Item id="72872"/> instead of a <Item id="24615"/>. The <Item id="72872"/> will transfer three boons from enemies to you when you interrupt an attack. For enemies with a defiance bar, using a CC skill while the enemy is casting any ability counts as interrupting, even if there is no "*interrupted*" message.
 
-### _Orb_
-* <Skill name="Icerazors Ire"/>.
+<Weapons unembossed weapon1MainType="Staff" weapon1MainAffix="Diviner" weapon1MainSigil1="Severance" weapon1MainSigil2="Absorption"/>
 
-### **30-0%**
-* Precast <Skill name="Soulcleaves Summit"/>, <Skill name="Orders from Above"/>.
-* <Skill name="Surge of the Mists"/>.
-* <Skill name="Legendary Assassin Stance"/>.
-* <Skill name="Heroic Command"/>, <Skill name="Citadel Bombardment"/>, <Skill name="Chilling Isolation"/>, <Skill name="Deathstrike"/>.
+As for legends that you want to run, the general rule of thumb in groups that perform at least relatively well is to run <Skill name="Legendary Renegade Stance"/> and <Skill name="Legendary Demon Stance"/>. If you find the stability to be an issue on Artsariiv in slower groups where <Skill name="Stand Your Ground"/> isn't enough to cover the stability, you can run <Skill name="Legendary Dwarf Stance"/> and <Skill name="Legendary Demon Stance"/> or alternatively heavily rely on your <Item id="72872"/> to strip the boons and run <Skill name="Legendary Renegade Stance"/> and <Skill name="Legendary Dwarf Stance"/>. However, this isn't recommended due to the unreliability of <Item id="72872"/>.
 
-### **Annotation**
-* Take <Specialization name="Soulbeast"/> orb.
+</Card>
 
-</ConditionalComponent>
+</GridItem>
+
+
+<GridItem xs="12" sm="6">
+<Card title="Burst Rotation">
+1. <Skill name="DarkrazorsDaring"/>
+2. <Skill name="IcerazorsIre"/>
+3. Legend Swap
+4. <Skill name="Citadel Bombardment"/>
+5. <Skill name="Chilling Isolation"/>
+6. <Skill name="Shackling Wave"/>
+7. <Skill name="Deathstrike"/>
+8. <Skill name="ChillingIsolation"/>
+</Card>
+</GridItem>
+
+<GridItem xs="12" sm="6">
+<Card title="Notes">
+Ideally you would want to do your burst rotation under the effect of <Effect name="Exposed"/> and while your <Skill name="Impossibleodds"/> is up. This might not always be possible if you need to reserve energy for boons or CC or in the case that your legend timings are off.
+
+With <Skill name="Legendary Demon Stance"/> you would want to use these abilities with <Skill name="Embrace the darkness"/> on.
+</Card>
+</GridItem>
+</Grid>
