@@ -17,7 +17,7 @@ classification: [5, 2, 4, 3, 5]
 compositions: [ { name: '_Rainbow' }, { name: '_Rainbearbow' }, { name: '_RGB' }]
 ---
 
-<Specialization name="Renegade"/> is the profession with the most support and utility among all META classes. It provides permanent <Boon name="Alacrity"/>, half of the necessary <Boon name="Might"/> with <Skill name="Heroic Command"/>, a unique buff over 150 <Attribute name="Ferocity"/> with <Trait name="Assassins Presence"/>, an insanely strong party heal and additional damage with <Skill name="soulcleavessummit"/>, and if that is not enough already, the <Specialization name="Renegade"/> has also excellent CC capabilities with <Skill name="Surge of the mists"/> and <Skill name="Darkrazorsdaring"/>. 
+<Specialization name="Renegade"/> is the profession with the most support and utility among all META classes. It provides permanent <Boon name="Alacrity"/>, half of the necessary <Boon name="Might"/> with <Skill name="Heroic Command"/>, a unique buff over 150 <Attribute name="Ferocity"/> with <Trait name="Assassins Presence"/>, <Condition name="Vulnerability"/> via <Skill name="IcerazorsIre"/> and sword skills and if that is not enough already, the <Specialization name="Renegade"/> has also excellent CC capabilities with <Skill name="Surge of the mists"/> and <Skill name="Darkrazorsdaring"/>. 
 
 Damage-wise the <Specialization name="Renegade"/> is on the lower end compared to the other META classes. This does not imply that the damage doesn't matter; in fact <Specialization name="Renegade"/> has a very juicy burst that makes slacking DPS player sweaty. 
 
@@ -149,14 +149,14 @@ Since the <Specialization name="Renegade"/> is a power-oriented build it benefit
 </GridItem>
 
 <GridItem sm="8">
-<Traits traits1="Devastation" traits1Selected="Unsuspecting Strikes,Assassins Presence,Swift Termination" traits2="Invocation" traits2Selected="Rising Tide,Spirit Boon,Charged Mists" traits3="Renegade" traits3Selected="Ashen Demeanor,All for One,Righteous Rebel"/>
+<Traits traits1="Devastation" traits1Selected="Unsuspecting Strikes,Assassins Presence,Dance of Death" traits2="Invocation" traits2Selected="Rising Tide,Spirit Boon,Charged Mists" traits3="Renegade" traits3Selected="Ashen Demeanor,All for One,Righteous Rebel"/>
 </GridItem>
 
 <GridItem sm="4">
 <Card title="Situational Traits">
 | | |
 | -- | -- |
-| <Trait id="1754" size="big" disableText/> | With low group DPS and long phases this might pull ahead of <Trait id="1800"/>. It is also more personal survivability and higher Scholar uptime if the phases are long. |
+| <Trait id="1800" size="big" disableText/> | With good group DPS and on Bosses with high <Effect name="Exposed"/> uptime this might pull ahead of <Trait id="1754"/>. |
 | <Trait id="1781" size="big" disableText/> | If you can't profit from <Trait id="1774"/> and your <Boon name="Might"/> uptimes are low. |
 </Card>
 <Card title="Situational Skills">
@@ -210,7 +210,7 @@ To precast with <Specialization name="Herald"/>, you can go very simple:
 - <Skill name="Chilling Isolation"/> - High damage skill with low cooldown and energy cost, also provides <Condition name="Chilled"/>. The second attack deals increased damage to isolated enemies.
 - <Skill name="Unrelenting Assault"/> - A two second evade that also provides <Boon name="Might"/> to yourself. 
 - <Skill name="Shackling Wave"/> - High damage skill, however should be used in key moments due to the energy cost, cooldown, and application of <Condition name="Vulnerability"/>.
-- <Skill name="Death strike"/> - Shadowsteps to target, grants two hits with decent damage. Should be used in key moments, unless energy and timing allow it to be used for damage. 
+- <Skill name="Death strike"/> - Shadowsteps to target, grants two hits with decent damage. Can be used for mobility and/or damage depending on how timing and energy allow it. 
 
 **Staff Skills:**
 
@@ -225,13 +225,16 @@ To precast with <Specialization name="Herald"/>, you can go very simple:
 **Notable Traits:**
 
 - <Trait name="Swift Termination"/> - 20% damage increase when foe is below 50% health.
-- <Trait name="Dance of Death"/> - When you apply <Condition name="Vulnerability"/> you gain stacks of <Uncategorized name="Battle Scars"/>, which makes your attack steal health. This trait is the DPS alternative for <Trait name="Swift Termination"/>. Usually it stands for ~ 10 - 12 % of damage, but doesn't scale with <Effect name="Exposed"/>. Pulls ahead over <Trait name="Swift Termination"/> in fights where majority of damage is dealt outside of <Effect name="Exposed"/> debuff (on Artsariiv and Arkk). Also worth taking in PuG groups on most bosses to ensure Scholar buff uptime and due to lower <Effect name="Exposed"/> uptime on bosses.
+- <Trait name="Dance of Death"/> - When you apply <Condition name="Vulnerability"/> you gain stacks of <Uncategorized name="Battle Scars"/>, which makes your attack steal health. This trait is the DPS alternative for <Trait name="Swift Termination"/>. Usually it stands for ~ 10 - 12 % of damage, but doesn't scale with <Effect name="Exposed"/>. Pulls ahead over <Trait name="Swift Termination"/> in fights where majority of damage is dealt outside of <Effect name="Exposed"/> debuff. Also worth taking in PuG groups on most bosses to ensure Scholar buff uptime and due to lower <Effect name="Exposed"/> uptime on bosses.
 - <Trait name="Rising Tide"/> - 7% damage increase while your health is above 90%. 
+- <Trait name="Spirit Boon"/> - Grants a boon on legend swap depending on the legend you are swapping to.
+- <Trait name="Incensed Response"/> - Grants <Boon name="Might"/> every time you get <Boon name="Fury"/>. Can be used instead of <Trait name="Spirit Boon"/> if <Boon name="Might"/> provided by the Group is low.
 - <Trait name="Charged Mists"/> - Grant 25 more energy when you swap Legends below 10 energy.
 - <Trait name="Ashen Demeanor"/> - Disabling a foe provides <Condition name="Vulnerability"/>.
 - <Trait name="Brutal Momentum"/> - 33% Critical chance increase when your endurance is full. 
 - <Trait name="Lasting Legacy"/> - <Skill name="Heroic Command"/> shares more stacks of <Boon name="Might"/> and the duration is increased by 50%. 
 - <Trait name="Righteous Rebel"/> - The duration of <Boon name="Alacrity"/> shared from <Skill name="Orders from Above"/> is increased by 50%. 
+- <Trait name="All for One"/> - Grants allies <Boon name="Protection"/> every time you use a <Skill name="Legendary Renegade Stance"/> skill.
 
 </Card>
 </GridItem>
@@ -247,14 +250,14 @@ To precast with <Specialization name="Herald"/>, you can go very simple:
 - <Skill name="Razorclaws Rage"/> - Summons a spirit that causes your party to inflict <Condition name="Bleeding"/> on attack.
 - <Skill name="Darkrazors Daring"/> - Summons a spirit that <Control name="Daze"/>s enemies in an area around it for ¼ of a second once per second for six seconds.
 - <Skill name="Icerazors Ire"/> -  Summons a spirit that deals high damage to enemies around it and inflicts <Condition name="Vulnerability"> on the targets.
-- <Skill name="Soulcleaves Summit"/> - Summons a spirit that enchants your party's attacks with life steal. Increases damage dealt by your party while healing them for each attack. 
+- <Skill name="Soulcleaves Summit"/> - Summons a spirit that provides a firefield which can be combined with blast combo finishers for <Boon name="Might"/>.
 
 ---
 
 **<Skill name="Legendary Assassin Stance"/>**
 
-- <Skill name="Enchanted Daggers"/> - Every ½ second your next six attacks siphon life from your target.
-- <Skill name="Phase Traversal"/> - Shadowsteps you to your target and gives you two stacks of unblockable.
+- <Skill name="Enchanted Daggers"/> - Your next six attacks siphon life from your target on a 1/2 seconds internal cooldown.
+- <Skill name="Phase Traversal"/> - Shadowsteps you to your target and grants you <Boon name="Quickness"/>.
 - <Skill name="Riposting Shadows"/> - Stunbreak and evade that removes movement-impairing conditions like <Condition name="Crippled"/>.
 - <Skill name="Impossible Odds"/> - **Toggle:** Damage modifier, grants you another hit on your attacks and increases your movement speed.
 - <Skill name="Jade Winds"/> - Deal damage, inflict <Condition name="Vulnerability"/> and <Control name="Stun"/> five nearby enemies.
@@ -299,7 +302,7 @@ To precast with <Specialization name="Herald"/>, you can go very simple:
 **Hard Crowd Control:**
 
 - <Skill name="Surge of the Mists"/> - Up to nine hits of 150 <Control name="Knockback"/>.
-- <Skill name="Darkrazors Daring"/> - Up to six hits of 100 <Control name="Daze"/>.
+- <Skill name="Darkrazors Daring"/> - Hits for 100 <Control name="Daze"/> per second for up to six seconds.
 - <Skill name="Jade Winds"/> - 300 <Control name="Stun"/>.
 - <Skill name="Call to Anguish"/> - 150 <Control name="Pull"/>.
 
@@ -347,17 +350,20 @@ As for legends that you want to run, the general rule of thumb in groups that pe
 
 <GridItem xs="12" sm="6">
 <Card title="Burst Rotation">
-1. <Skill name="Citadel Bombardment"/>
-2. <Skill name="Chilling Isolation"/>
-3. <Skill name="Shackling Wave"/>
-4. <Skill name="Deathstrike"/>
-5. <Skill name="ChillingIsolation"/>
+1. <Skill name="DarkrazorsDaring"/>
+2. <Skill name="IcerazorsIre"/>
+3. Legend Swap
+4. <Skill name="Citadel Bombardment"/>
+5. <Skill name="Chilling Isolation"/>
+6. <Skill name="Shackling Wave"/>
+7. <Skill name="Deathstrike"/>
+8. <Skill name="ChillingIsolation"/>
 </Card>
 </GridItem>
 
 <GridItem xs="12" sm="6">
 <Card title="Notes">
-Ideally you would want to do your burst rotation under the effect of <Effect name="Exposed"/> and while your <Skill name="Impossibleodds"/> is up. This might not always be possible if you need to reserve energy for boons or in the case that your legend timings are off.
+Ideally you would want to do your burst rotation under the effect of <Effect name="Exposed"/> and while your <Skill name="Impossibleodds"/> is up. This might not always be possible if you need to reserve energy for boons or CC or in the case that your legend timings are off.
 
 With <Skill name="Legendary Demon Stance"/> you would want to use these abilities with <Skill name="Embrace the darkness"/> on.
 </Card>
